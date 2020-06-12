@@ -1,0 +1,85 @@
+movie-list {
+    margin-top: 32px;
+    width: 100%;
+    display: block;
+    padding: 16px;
+}
+
+movie-list > .placeholder {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+movie-item {
+    background-color: white;
+    margin-bottom: 18px;
+    box-shadow: 0 0 1px 0 rgba(100, 100, 100, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #b8babb;
+  
+}
+
+movie-item .fan-art-movie {
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+    object-position: center; 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info > h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.movie-info > h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.movie-info > p {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+}
+.more-info{
+    display: flex;
+    padding-top: 10px;
+    margin: auto;
+}
+.litle-info{
+    width: 30%;
+    margin: auto;
+}
+.description-info{
+    width: 65%;
+}
+.description-info > button {
+    width: 90%;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 15px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.description-info > button:hover{
+    background-color: rgb(70, 65, 65);
+    font-weight: bold;
+    margin-right: 10px;
+}

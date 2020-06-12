@@ -1,0 +1,9 @@
+app-bar{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-color:rgb(34, 30, 30) ;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
